@@ -1,2 +1,2 @@
-# :dog::cat: pets
-A package to express your love for your pets
+# pets
+:dog::cat: A package to express your love for your pets. 
