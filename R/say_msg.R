@@ -17,7 +17,7 @@ say_msg <- function(my_fave = "puppies", enthusiasm = 3) {
 
   exclaims <- paste(rep("!", enthusiasm), collapse = "")
 
-  msg <- paste0("The best pets in the whole wide world are ", favorite_pet, enthusiasm, " No contest. At all. None.")
+  msg <- paste0("The best pets in the whole wide world are ", favorite_pet, exclaims, " No contest. At all. None.")
 
   print(msg)
 
