@@ -16,12 +16,12 @@ library(pets)
 
 say_msg(my_fave = "kitties")
 ```
-`>  1] "The best pets in the whole wide world are KITTIES!!! No contest. At all. None."
+>  1] "The best pets in the whole wide world are KITTIES!!! No contest. At all. None."
 
 ```r
 say_msg("puppies", enthusiasm = 7)
 ```
-`> [1] "The best pets in the whole wide world are PUPPIES!!!!!!! No contest. At all. None."
+> [1] "The best pets in the whole wide world are PUPPIES!!!!!!! No contest. At all. None."
 
 ```r
 ?say_msg
