@@ -1,8 +1,8 @@
 # pets
 :dog::cat: A package to express your love for your pets. 
 
-## Install
 
+## Install
 ```r
 library(remotes)
 
@@ -11,21 +11,18 @@ install_github("MPCA-data/pets")
 ```
 
 ## Use
-
 ```r
 library(pets)
 
 say_msg(my_fave = "kitties")
 ```
-`# The 
+`> `[1] "The best pets in the whole wide world are KITTIES!!! No contest. At all. None."`
 
 ```r
-say_msg("puppies", exclaim = 7)
+say_msg("puppies", enthusiasm = 7)
 ```
+`> `[1] "The best pets in the whole wide world are PUPPIES!!!!!!! No contest. At all. None."`
 
 ```r
-?say_msg(
+?say_msg
 ```
-
-
-`
