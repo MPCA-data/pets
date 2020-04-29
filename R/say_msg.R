@@ -2,6 +2,7 @@
 #'
 #' This function expresses your love of pets.
 #' @param my_fave Your favorite animal. Default = "puppies".
+#' @param enthusiasm A number to show your excitement level. Determines the number of "!!!!". Default = 3.
 #' @keywords pets
 #' @export
 #' @examples
@@ -9,16 +10,16 @@
 #' say_msg()
 
 say_msg <- function(my_fave = "puppies", enthusiasm = 3) {
-
+  
   # Pet message
   favorite_pet <- my_fave
-
+  
   favorite_pet <- toupper(favorite_pet)
-
+  
   exclaims <- paste(rep("!", enthusiasm), collapse = "")
-
+  
   msg <- paste0("The best pets in the whole wide world are ", favorite_pet, exclaims, " No contest. At all. None.")
-
+  
   print(msg)
-
+  
 }
