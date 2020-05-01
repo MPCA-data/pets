@@ -23,6 +23,8 @@ say_msg("puppies", enthusiasm = 7)
 ```
 > [1] "The best pets in the whole wide world are PUPPIES!!!!!!! No contest. At all. None."
 
+
+## Help
 ```r
 ?say_msg
 ```
