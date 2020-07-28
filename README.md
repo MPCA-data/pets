@@ -1,5 +1,5 @@
 # pets
-:dog::cat: A package to express your love for your pets. 
+:dog::cat: A demo package to help express your love for your pets and show the components of an R package. 
 
 
 ## Install
